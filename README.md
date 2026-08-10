@@ -9,7 +9,7 @@ The project provides a structured, scalable, and efficient network infrastructur
 The network follows a hierarchical architecture consisting of **ISP Router, ISP Switch, Edge Routers, Core Routers, Access Switches, VLANs, and End Devices**.
 
 - **VLSM** (Variable Length Subnet Masking) is used for efficient IP address allocation based on departmental host requirements.
-- **VLANs** separate departments, with **802.1Q trunking** and **Router-on-a-Stick** enabling inter-VLAN communication.
+- **VLANs** separate departments, with ** trunking** and **Router-on-a-Stick** enabling inter-VLAN communication.
 - **DHCP** automatically assigns IP addresses to end devices.
 - **EIGRP (AS 100)** provides dynamic routing between internal hospital networks.
 - **NAT/PAT** on the Edge Routers provides Internet access to private internal networks.
