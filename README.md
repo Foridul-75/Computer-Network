@@ -1,4 +1,4 @@
-# 🏥 Design and Implementation of a Smart Multi-Speciality Hospital Network Using Cisco Packet Tracer
+# Design and Implementation of a Smart Multi-Speciality Hospital Network Using Cisco Packet Tracer
 
 ## 📌 Project Overview
 
