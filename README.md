@@ -20,9 +20,7 @@ The network follows a hierarchical architecture consisting of **ISP Router, ISP 
 ## 🏥 Network Architecture
 <img width="1011" height="525" alt="image" src="https://github.com/user-attachments/assets/9c8533be-9cde-478f-8729-7e747a3f2147" />
 
-
 ## ⚙️ Technologies & Features
-
 - Cisco Packet Tracer
 - VLSM-based IP Addressing
 - VLAN
@@ -39,13 +37,10 @@ The network follows a hierarchical architecture consisting of **ISP Router, ISP 
 - Email Server
 - Network Connectivity Testing
 
-
 ## 🌐 IP Addressing
-
 Private IP addressing is used for all internal hospital networks.
 
 ### Main Hospital — Network Block: `10.0.0.0/22`
-
 | VLAN | Department | Network | Prefix | Gateway |
 |------|-----------|---------|--------|---------|
 | 10 | DMZ | 10.0.1.160 | /28 | 10.0.1.161 |
@@ -54,7 +49,6 @@ Private IP addressing is used for all internal hospital networks.
 | 50 | Guest Wi-Fi | 10.0.0.0 | /24 | 10.0.0.1 |
 
 ### Branch Networks
-
 | Site | Network Block |
 |------|---------------|
 | Diagnostic Center | 10.1.0.0/24 |
@@ -64,7 +58,6 @@ Private IP addressing is used for all internal hospital networks.
 | Children Care Hospital | 10.5.0.0/24 |
 
 > Point-to-point router links use `/30` subnets.
-
 
 ## 🔐 Network Segmentation Using VLAN
 Each hospital department is logically separated using VLANs (Main Hospital example):
@@ -77,7 +70,6 @@ Each hospital department is logically separated using VLANs (Main Hospital examp
 
 ## 🚦 Routing — EIGRP
 **EIGRP (Enhanced Interior Gateway Routing Protocol)**, Autonomous System **100**, is used for dynamic routing within the hospital network, allowing routers to dynamically learn and exchange routes between hospital sites.
-
 
 ## 🌍 NAT/PAT
 
@@ -152,8 +144,8 @@ HTTP, FTP, DNS, and other configured services are also tested to verify end-to-e
 
 ## 👥 Project Team
 
-| Student Name | Student ID |
-|--------------|-----------|
+| Student Name   | Student ID  |
+|--------------  |-----------|
 | Sultan Mahmud Rasel | 241-15-521 |
 | Md. Foridul Islam | 241-15-429 |
 | Arpita Kundu | 241-15-143 |
@@ -171,13 +163,6 @@ HTTP, FTP, DNS, and other configured services are also tested to verify end-to-e
 **Mr. Tanvirul Islam**
 Lecturer, Department of Computer Science and Engineering
 Daffodil International University
-
-## 🛠️ Project Implementation Flow
-
-NETWORK DESIGN → VLSM / IP PLAN → VLAN CONFIGURATION → ACCESS PORTS
-→ TRUNK CONFIG → ROUTER-ON-A-STICK → DHCP → EDGE–CORE LINKS
-→ EIGRP (AS 100) → NAT/PAT → ISP NETWORK → INTERNET
-→ HTTP / FTP / DNS / EMAIL → TESTING & VERIFICATION
 
 
 ## 📌 Final Project Summary
